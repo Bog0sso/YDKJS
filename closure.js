@@ -1,7 +1,7 @@
 /**
  * 
- * @param {*} start 
- * @param {*} end 
+ * @param {Number} start 
+ * @param {Number} end 
  *the end parameter is inclusive
  *If the second
  *argument is omitted, then another function should be returned that expects
@@ -28,12 +28,6 @@ function range(start, end) {
     
 
 }
-console.log(range(3,3));
-console.log(range(3,8));
-console.log(range(3,0));
-const start3 = range(3);
-const start4 = range(4);
-console.log(start3(3));
-console.log(start3(8));
-console.log(start3(0));
-console.log(start4(6));
+
+
+module.exports= {range}

@@ -1,7 +1,7 @@
 const DAY_START = "07:30";
 const DAY_END   = "17:45";
 
-function scheduleMeeting(startTime, durationMinutes) {
+export function scheduleMeeting(startTime, durationMinutes) {
     //1. calculate day start in minutes
     const DAY_START_HOUR = DAY_START.split(':')[0];
     console.log(DAY_START_HOUR)
